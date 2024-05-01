@@ -185,7 +185,7 @@ contract xRenzoDepositNativeBridge is
 
     /**
      * @notice  Accepts deposit for the user in depositToken and mints xezETH
-     * @dev     This funcion allows anyone to call and deposit collateral for xezETH
+     * @dev     This function allows anyone to call and deposit collateral for xezETH
      *          ezETH will be immediately minted based on the current price
      *          Funds will be held until sweep() is called.
      *          User calling this function should first approve the tokens to be pulled via transferFrom
